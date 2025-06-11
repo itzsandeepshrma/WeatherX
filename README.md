@@ -1,6 +1,6 @@
 # WeatherX
 
-**WeatherX** is a futuristic, neon cyberpunk-style weather app built with pure HTML, CSS, and JavaScript — no external API keys required. It provides real-time weather updates based on your location or any searched city, featuring animated UI, live temperature, humidity, wind speed, and local time & date. No API keys, just vibes 
+**WeatherX** is a futuristic, neon cyberpunk-style weather app built with pure HTML, CSS, and JavaScript. It provides real-time weather updates based on your location or any searched city, featuring animated UI, live temperature, humidity, wind speed, and local time & date, just vibes 
 
 ---
 
@@ -14,7 +14,7 @@
 - Displays local date & time of the searched city  
 - Smart geocoding and automatic timezone handling  
 - Fully responsive and optimized for all devices  
-- No API key required — powered by Open-Meteo  
+- Powered by Open-Meteo  
 
 ---
 
