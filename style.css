@@ -10,10 +10,19 @@ body {
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
   min-height: 100vh;
   padding: 20px;
+}
+
+.brand-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #d200ff;
+  text-shadow: 0 0 10px #d200ff, 0 0 25px #9900cc;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .weather-box {
@@ -26,7 +35,6 @@ body {
   max-width: 560px;
   width: 100%;
   text-align: center;
-  transform: scale(1.05);
 }
 
 input {
@@ -75,8 +83,7 @@ h2 {
   font-size: 1.1rem;
 }
 
-#localTime,
-#localDate {
+#localTime, #localDate {
   font-size: 1.1rem;
   color: #d199ff;
   margin-top: 10px;
@@ -91,17 +98,8 @@ h2 {
   color: #fff;
 }
 
-.brand-footer {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #d200ff;
-  text-shadow: 0 0 10px #d200ff, 0 0 20px #9900cc;
-}
-
 footer {
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
   font-size: 1rem;
   color: #ae69ff;
