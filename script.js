@@ -57,7 +57,7 @@ async function updateWeatherByCoords(lat, lon, label = "Your Location") {
   humidity.innerText = `${humidityValue}%`;
 
   const now = new Date(weather.current_weather.time);
-  localTime.innerText = `Local Time: ${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+  localTime.innerText = `Local Time: ${now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})}`;
   localDate.innerText = `Local Date: ${now.toLocaleDateString([], { day: '2-digit', month: 'long', year: 'numeric' })}`;
   loading.style.display = 'none';
 }
@@ -78,5 +78,4 @@ cityInput.addEventListener("keyup", async (e) => {
 
 navigator.geolocation?.getCurrentPosition(
   pos => updateWeatherByCoords(pos.coords.latitude, pos.coords.longitude),
-  err => console.log("Location access denied.")
-);
+  err => console.log("Location access denied."));
